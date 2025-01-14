@@ -1445,13 +1445,13 @@ textarea.wpcf7c-conf {
   background-size: 50px 50px;
 }
 .bg_green_light {
-  background-image: url("../img/bg_green_light.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
   color: #fff;
 }
 .bg_green_dark {
-  background-image: url("../img/bg_green_dark.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
   color: #fff;
@@ -4928,7 +4928,7 @@ header .menu.open::after {
   top: 0;
   left: 0;
   transform-origin: top center;
-  background-image: url("../img/bg-light.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
   z-index: -1;
@@ -5414,7 +5414,7 @@ header .menu.open::after {
   position: relative;
   padding: 0 6.02vw 23.61vw;
   color: #2a1c0d;
-  background-image: url("../img/bg_green_light.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
 }
@@ -5594,7 +5594,7 @@ header .menu.open::after {
   padding-top: 11px;
   padding-bottom: 17.65vw;
   color: #fff;
-  background-image: url("../img/bg_green_dark.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
 }
@@ -9511,7 +9511,7 @@ header .menu.open::after {
   position: absolute;
   top: 155px;
   left: 0;
-  background-image: url("../img/bg_green_light.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
   z-index: -1;
@@ -12690,7 +12690,7 @@ header .menu.open::after {
   position: absolute;
   top: calc(7.43vw - 1px);
   left: 0;
-  background-image: url("../img/bg_green_light.jpg");
+  background-image: url("../img/bg_light.jpg");
   background-repeat: repeat;
   background-size: 50px 50px;
 }
