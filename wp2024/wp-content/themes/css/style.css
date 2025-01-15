@@ -1626,7 +1626,6 @@ i.arrow.blank {
   position: absolute;
   top: -4px;
   left: -44px;
-  background-image: url("../img/button1_hover_orange.png");
   background-size: 55px 54px;
   background-repeat: no-repeat;
   z-index: -1;

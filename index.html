@@ -27,13 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC+Rounded:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      id="wp-block-library-css"
-      href="wp2024/wp-includes/css/dist/block-library/style.min.css%3Fver=6.7.1.css"
-      type="text/css"
-      media="all"
-    />
+
     <style id="classic-theme-styles-inline-css" type="text/css">
       /*! This file is auto-generated */
       .wp-block-button__link {
@@ -382,17 +376,16 @@
         line-height: 1.6;
       }
     </style>
-    <link
-      rel="stylesheet"
-      id="contact-form-7-css"
-      href="wp2024/wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=5.9.4.css"
-      type="text/css"
-      media="all"
-    />
+
     <link rel="shortlink" href="index.html" />
 
-    <!-- Font -->
+
     <script>
+      // 圖片滾到才家載，增加效能
+      document.querySelectorAll('img').forEach((img) => {
+  img.setAttribute('loading', 'lazy');
+});
+//font
       (function (d) {
         var config = {
             kitId: "aqg7nsf",
@@ -423,6 +416,7 @@
         s.parentNode.insertBefore(tk, s);
       })(document);
     </script>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1401,11 +1395,6 @@
 	</p>
     </footer>
 
-    <script
-      type="text/javascript"
-      src="wp2024/wp-content/plugins/contact-form-7/includes/swv/js/index.js%3Fver=5.9.4'%20async%20charset='UTF-8"
-      id="swv-js"
-    ></script>
     <script type="text/javascript" id="contact-form-7-js-extra">
       /* <![CDATA[ */
       var wpcf7 = {
@@ -1416,21 +1405,13 @@
       };
       /* ]]> */
     </script>
-    <script
-      type="text/javascript"
-      src="wp2024/wp-content/plugins/contact-form-7/includes/js/index.js%3Fver=5.9.4'%20async%20charset='UTF-8"
-      id="contact-form-7-js"
-    ></script>
+
     <script
       type="text/javascript"
       src="https://www.google.com/recaptcha/api.js?render=6LcFWsQpAAAAAC9_Jdp3HZ-Rg01QAk4cznwCMAXc&amp;ver=3.0&#039; async charset=&#039;UTF-8"
       id="google-recaptcha-js"
     ></script>
-    <script
-      type="text/javascript"
-      src="wp2024/wp-includes/js/dist/vendor/wp-polyfill.min.js%3Fver=3.15.0'%20async%20charset='UTF-8"
-      id="wp-polyfill-js"
-    ></script>
+
     <script type="text/javascript" id="wpcf7-recaptcha-js-extra">
       /* <![CDATA[ */
       var wpcf7_recaptcha = {
@@ -1439,11 +1420,7 @@
       };
       /* ]]> */
     </script>
-    <script
-      type="text/javascript"
-      src="wp2024/wp-content/plugins/contact-form-7/modules/recaptcha/index.js%3Fver=5.9.4'%20async%20charset='UTF-8"
-      id="wpcf7-recaptcha-js"
-    ></script>
+
     <script
       src="https://ajaxzip3.github.io/ajaxzip3.js"
       charset="UTF-8"
